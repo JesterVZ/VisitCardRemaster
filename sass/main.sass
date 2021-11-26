@@ -8,13 +8,15 @@
     --color-primary: #000
     --font-color: #fff
 .container
+    background-repeat: no-repeat
+    background-size: cover
     background-color: var(--color-primary)
     background-position-y: -600px
     transition: .4s
 body
     font-family: 'Rubik', sans-serif
-    margin: 0;
-    padding: 0;
+    margin: 0
+    padding: 0
 .switch
     display: flex
     justify-content: flex-end
@@ -27,9 +29,9 @@ body
         width: 107px
         height: 40px
     input
-        opacity: 0;
-        width: 0;
-        height: 0;
+        opacity: 0 
+        width: 0
+        height: 0
 .slider
     position: absolute
     cursor: pointer
@@ -59,7 +61,7 @@ body
     .round
         border-radius: 34px
         &:before
-            border-radius: 50%;
+            border-radius: 50%
 input
     &:checked + .slider
         background-color: $black
@@ -96,4 +98,5 @@ input
     border-radius: 50%
     background-color: var(--font-color)
     color: var(--color-primary)
-    font-size: 88px
+    font-size: 80px
+    
