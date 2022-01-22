@@ -7,11 +7,11 @@ function setTheme(themeName) {
     switch(themeName){
         case 'theme-light':
             toggleElement[0].style.backgroundImage = "url('./img/icons/sun.svg')";
-            containerElement[0].style.backgroundImage = "url('./img/background-light.jpg')";
+            containerElement[0].style.backgroundColor="#fff";
         break;
         case 'theme-dark':
             toggleElement[0].style.backgroundImage = "url('./img/icons/moon.svg')";
-            containerElement[0].style.backgroundImage = "url('./img/background-dark.jpg')";
+            containerElement[0].style.backgroundColor = "#000";
         break;
     }
     document.documentElement.className = themeName;
