@@ -333,8 +333,8 @@ input:checked + .slider .circle {
             align-items: center;
   }
   .content-block__image {
-    width: 70;
-    height: 70;
+    width: 70px !important;
+    height: 70px !important;
   }
 
   .education__img {
